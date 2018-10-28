@@ -1,0 +1,169 @@
+# Created at 2018-10-09T21:54:09.612
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+
+# Created at 2018-10-09T21:54:09.667
+Unexpected IOException: 1,1,org.apache.maven.surefire.junit4.JUnit4Provider,edu.northeastern.ccs.cs5500.problem1.CardTest,null,null,null
+
+
+# Created at 2018-10-09T21:54:09.808
+Unexpected IOException: 5,1,edu.northeastern.ccs.cs5500.problem1.CardTest,testAllCardsUnique(edu.northeastern.ccs.cs5500.problem1.CardTest),null,null,null
+
+
+# Created at 2018-10-09T21:54:09.824
+Unexpected IOException: 7,1,edu.northeastern.ccs.cs5500.problem1.CardTest,testAllCardsUnique(edu.northeastern.ccs.cs5500.problem1.CardTest),null,null,null,null,CardTest.testAllCardsUnique:66->testAllCardsConstruction:45 NullPointer,java.lang.NullPointerException\000A\0009at edu.northeastern.ccs.cs5500.problem1.CardTest.testAllCardsConstruction(CardTest.java:45)\000A\0009at edu.northeastern.ccs.cs5500.problem1.CardTest.testAllCardsUnique(CardTest.java:66)\000A
+
+
+# Created at 2018-10-09T21:54:09.839
+Unexpected IOException: 5,1,edu.northeastern.ccs.cs5500.problem1.CardTest,testAllCardsConstruction(edu.northeastern.ccs.cs5500.problem1.CardTest),null,null,null
+
+
+# Created at 2018-10-09T21:54:09.839
+Unexpected IOException: 7,1,edu.northeastern.ccs.cs5500.problem1.CardTest,testAllCardsConstruction(edu.northeastern.ccs.cs5500.problem1.CardTest),null,null,null,null,CardTest.testAllCardsConstruction:45 NullPointer,java.lang.NullPointerException\000A\0009at edu.northeastern.ccs.cs5500.problem1.CardTest.testAllCardsConstruction(CardTest.java:45)\000A
+
+
+# Created at 2018-10-09T21:54:09.858
+Unexpected IOException: 5,1,edu.northeastern.ccs.cs5500.problem1.CardTest,testAllCardsConstructed(edu.northeastern.ccs.cs5500.problem1.CardTest),null,null,null
+
+
+# Created at 2018-10-09T21:54:09.858
+Unexpected IOException: 7,1,edu.northeastern.ccs.cs5500.problem1.CardTest,testAllCardsConstructed(edu.northeastern.ccs.cs5500.problem1.CardTest),null,null,null,null,CardTest.testAllCardsConstructed:56->testAllCardsConstruction:45 NullPointer,java.lang.NullPointerException\000A\0009at edu.northeastern.ccs.cs5500.problem1.CardTest.testAllCardsConstruction(CardTest.java:45)\000A\0009at edu.northeastern.ccs.cs5500.problem1.CardTest.testAllCardsConstructed(CardTest.java:56)\000A
+
+
+# Created at 2018-10-09T21:54:09.873
+Unexpected IOException: 5,1,edu.northeastern.ccs.cs5500.problem1.CardTest,testEquality(edu.northeastern.ccs.cs5500.problem1.CardTest),null,null,null
+
+
+# Created at 2018-10-09T21:54:09.873
+Unexpected IOException: 6,1,edu.northeastern.ccs.cs5500.problem1.CardTest,testEquality(edu.northeastern.ccs.cs5500.problem1.CardTest),null,null,null
+
+
+# Created at 2018-10-09T21:54:09.873
+Unexpected IOException: 5,1,edu.northeastern.ccs.cs5500.problem1.CardTest,testSimpleCardConstruction(edu.northeastern.ccs.cs5500.problem1.CardTest),null,null,null
+
+
+# Created at 2018-10-09T21:54:09.889
+Unexpected IOException: 6,1,edu.northeastern.ccs.cs5500.problem1.CardTest,testSimpleCardConstruction(edu.northeastern.ccs.cs5500.problem1.CardTest),null,null,null
+
+
+# Created at 2018-10-09T21:54:09.889
+Unexpected IOException: 2,1,org.apache.maven.surefire.junit4.JUnit4Provider,edu.northeastern.ccs.cs5500.problem1.CardTest,null,null,null
+
+
+# Created at 2018-10-09T21:54:09.904
+Unexpected IOException: 1,1,org.apache.maven.surefire.junit4.JUnit4Provider,edu.northeastern.ccs.cs5500.problem1.DeckTest,null,null,null
+
+
+# Created at 2018-10-09T21:54:09.904
+Unexpected IOException: 5,1,edu.northeastern.ccs.cs5500.problem1.DeckTest,testStandardDeckSorting(edu.northeastern.ccs.cs5500.problem1.DeckTest),null,null,null
+
+
+# Created at 2018-10-09T21:54:09.920
+Unexpected IOException: 6,1,edu.northeastern.ccs.cs5500.problem1.DeckTest,testStandardDeckSorting(edu.northeastern.ccs.cs5500.problem1.DeckTest),null,null,null
+
+
+# Created at 2018-10-09T21:54:09.920
+Unexpected IOException: 2,1,org.apache.maven.surefire.junit4.JUnit4Provider,edu.northeastern.ccs.cs5500.problem1.DeckTest,null,null,null
+
+
+# Created at 2018-10-09T21:54:09.936
+Unexpected IOException: 1,1,org.apache.maven.surefire.junit4.JUnit4Provider,edu.northeastern.ccs.cs5500.problem1.GameTest,null,null,null
+
+
+# Created at 2018-10-09T21:54:09.936
+Unexpected IOException: 5,1,edu.northeastern.ccs.cs5500.problem1.GameTest,testSimpleCardConstruction(edu.northeastern.ccs.cs5500.problem1.GameTest),null,null,null
+
+
+# Created at 2018-10-09T21:54:09.951
+Unexpected IOException: 6,1,edu.northeastern.ccs.cs5500.problem1.GameTest,testSimpleCardConstruction(edu.northeastern.ccs.cs5500.problem1.GameTest),null,null,null
+
+
+# Created at 2018-10-09T21:54:09.967
+Unexpected IOException: 2,1,org.apache.maven.surefire.junit4.JUnit4Provider,edu.northeastern.ccs.cs5500.problem1.GameTest,null,null,null
+
+
+# Created at 2018-10-09T21:54:09.967
+Unexpected IOException: 1,1,org.apache.maven.surefire.junit4.JUnit4Provider,edu.northeastern.ccs.cs5500.problem1.HandTest,null,null,null
+
+
+# Created at 2018-10-09T21:54:09.967
+Unexpected IOException: 5,1,edu.northeastern.ccs.cs5500.problem1.HandTest,testSimpleCardConstruction(edu.northeastern.ccs.cs5500.problem1.HandTest),null,null,null
+
+
+# Created at 2018-10-09T21:54:09.983
+Unexpected IOException: 6,1,edu.northeastern.ccs.cs5500.problem1.HandTest,testSimpleCardConstruction(edu.northeastern.ccs.cs5500.problem1.HandTest),null,null,null
+
+
+# Created at 2018-10-09T21:54:09.983
+Unexpected IOException: 2,1,org.apache.maven.surefire.junit4.JUnit4Provider,edu.northeastern.ccs.cs5500.problem1.HandTest,null,null,null
+
+
+# Created at 2018-10-09T21:54:09.998
+Unexpected IOException: 1,1,org.apache.maven.surefire.junit4.JUnit4Provider,edu.northeastern.ccs.cs5500.problem1.RankTest,null,null,null
+
+
+# Created at 2018-10-09T21:54:09.998
+Unexpected IOException: 5,1,edu.northeastern.ccs.cs5500.problem1.RankTest,testGetName(edu.northeastern.ccs.cs5500.problem1.RankTest),null,null,null
+
+
+# Created at 2018-10-09T21:54:10.014
+Unexpected IOException: 6,1,edu.northeastern.ccs.cs5500.problem1.RankTest,testGetName(edu.northeastern.ccs.cs5500.problem1.RankTest),null,null,null
+
+
+# Created at 2018-10-09T21:54:10.014
+Unexpected IOException: 5,1,edu.northeastern.ccs.cs5500.problem1.RankTest,testSuitEquality(edu.northeastern.ccs.cs5500.problem1.RankTest),null,null,null
+
+
+# Created at 2018-10-09T21:54:10.029
+Unexpected IOException: 6,1,edu.northeastern.ccs.cs5500.problem1.RankTest,testSuitEquality(edu.northeastern.ccs.cs5500.problem1.RankTest),null,null,null
+
+
+# Created at 2018-10-09T21:54:10.029
+Unexpected IOException: 5,1,edu.northeastern.ccs.cs5500.problem1.RankTest,testGetSymbol(edu.northeastern.ccs.cs5500.problem1.RankTest),null,null,null
+
+
+# Created at 2018-10-09T21:54:10.045
+Unexpected IOException: 6,1,edu.northeastern.ccs.cs5500.problem1.RankTest,testGetSymbol(edu.northeastern.ccs.cs5500.problem1.RankTest),null,null,null
+
+
+# Created at 2018-10-09T21:54:10.045
+Unexpected IOException: 2,1,org.apache.maven.surefire.junit4.JUnit4Provider,edu.northeastern.ccs.cs5500.problem1.RankTest,null,null,null
+
+
+# Created at 2018-10-09T21:54:10.045
+Unexpected IOException: 1,1,org.apache.maven.surefire.junit4.JUnit4Provider,edu.northeastern.ccs.cs5500.problem1.SuitTest,null,null,null
+
+
+# Created at 2018-10-09T21:54:10.061
+Unexpected IOException: 5,1,edu.northeastern.ccs.cs5500.problem1.SuitTest,testGetName(edu.northeastern.ccs.cs5500.problem1.SuitTest),null,null,null
+
+
+# Created at 2018-10-09T21:54:10.076
+Unexpected IOException: 6,1,edu.northeastern.ccs.cs5500.problem1.SuitTest,testGetName(edu.northeastern.ccs.cs5500.problem1.SuitTest),null,null,null
+
+
+# Created at 2018-10-09T21:54:10.076
+Unexpected IOException: 5,1,edu.northeastern.ccs.cs5500.problem1.SuitTest,testSuitEquality(edu.northeastern.ccs.cs5500.problem1.SuitTest),null,null,null
+
+
+# Created at 2018-10-09T21:54:10.096
+Unexpected IOException: 6,1,edu.northeastern.ccs.cs5500.problem1.SuitTest,testSuitEquality(edu.northeastern.ccs.cs5500.problem1.SuitTest),null,null,null
+
+
+# Created at 2018-10-09T21:54:10.105
+Unexpected IOException: 5,1,edu.northeastern.ccs.cs5500.problem1.SuitTest,testGetSymbol(edu.northeastern.ccs.cs5500.problem1.SuitTest),null,null,null
+
+
+# Created at 2018-10-09T21:54:10.108
+Unexpected IOException: 6,1,edu.northeastern.ccs.cs5500.problem1.SuitTest,testGetSymbol(edu.northeastern.ccs.cs5500.problem1.SuitTest),null,null,null
+
+
+# Created at 2018-10-09T21:54:10.108
+Unexpected IOException: 2,1,org.apache.maven.surefire.junit4.JUnit4Provider,edu.northeastern.ccs.cs5500.problem1.SuitTest,null,null,null
+
+
