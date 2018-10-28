@@ -165,21 +165,5 @@ public class CardTest {
         assertEquals("K♣", card5.toString());
     }
 
-    /**
-     * tests new functionality
-     */
-    @Test
-    public void testIterator(){
-        newHand hand = new StandardNewHand();
-        hand.accept(card1);
-        hand.accept(card2);
-        assertTrue(hand.hasCard(card1));
-        assertFalse(hand.hasCard(card3));
-        assertEquals(1, hand.occurrencesInHand(card1));
-        assertEquals(1, hand.occurrencesInHand(StandardRank.JACK));
-        assertEquals(0, hand.occurrencesInHand(StandardRank.FIVE));
-
-
-    }
 
 }
