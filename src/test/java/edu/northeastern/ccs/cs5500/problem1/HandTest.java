@@ -207,9 +207,9 @@ public class HandTest {
         hand1.accept(deck.pullCard());
         hand1.accept(deck.pullCard());
 
-        List<Card> before = hand1.showCards();
+        List<Card> before = new ArrayList<>(hand1.showCards());
         hand1.shuffle();
-        List<Card> after = hand1.showCards();
+        List<Card> after = new ArrayList<>(hand1.showCards());
         assertNotEquals(before, after);
         assertEquals(before.size(), after.size());
         for (Card card : before) {

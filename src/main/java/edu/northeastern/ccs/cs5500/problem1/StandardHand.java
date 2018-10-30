@@ -26,7 +26,7 @@ public class StandardHand implements Hand {
 
     @Override
     public List<Card> showCards() {
-        return new ArrayList<>(this.cards);
+        return this.cards;
     }
 
     @Override
@@ -58,15 +58,16 @@ public class StandardHand implements Hand {
         Collections.shuffle(this.cards);
     }
 
-    @Override
-    public void removeCard(Rank rank) {
-        for (Card card: this.cards){
-            if (card.getRank().equals(rank)){
-                this.cards.remove(card);
-                return;
-            }
-        }
-    }
+//    @Override
+//    public Card removeCard(Rank rank) {
+//        for (Card card: this.cards){
+//            if (card.getRank().equals(rank)){
+//                this.cards.remove(card);
+//                return card;
+//            }
+//        }
+//        return null;
+//    }
 
     @Override
     public String toString() {
