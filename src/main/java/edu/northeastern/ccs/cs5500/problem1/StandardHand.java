@@ -26,7 +26,7 @@ public class StandardHand implements Hand {
 
     @Override
     public List<Card> showCards() {
-        return new ArrayList<>(this.cards);
+        return this.cards;
     }
 
     @Override

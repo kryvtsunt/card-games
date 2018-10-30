@@ -7,7 +7,7 @@ package edu.northeastern.ccs.cs5500.problem1;
  */
 public class DeckFactory extends AbstractFactory {
     @Override
-    Deck getDeck(DeckType type) {
+    public Deck getDeck(DeckType type) {
         if (type == null) {
             return null;
         }
@@ -23,7 +23,7 @@ public class DeckFactory extends AbstractFactory {
     }
 
     @Override
-    Deck getDeck(DeckType type, int numberOfDecks) {
+    public Deck getDeck(DeckType type, int numberOfDecks) {
         if (type == null) {
             return null;
         }

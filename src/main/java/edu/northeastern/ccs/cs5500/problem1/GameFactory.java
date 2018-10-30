@@ -18,7 +18,7 @@ public class GameFactory extends AbstractFactory {
     }
 
     @Override
-    Game getGame(String deckType, int numberOfDecks, int numberOfPlayers) throws IllegalArgumentException {
+    public Game getGame(String deckType, int numberOfDecks, int numberOfPlayers) throws IllegalArgumentException {
         Game game = new SimpleGame();
         game.createDeck(deckType, numberOfDecks);
         game.setNumberOfHands(numberOfPlayers);
@@ -27,7 +27,7 @@ public class GameFactory extends AbstractFactory {
     }
 
     @Override
-    Game getGame(String deckType, int numberOfPlayers) {
+    public Game getGame(String deckType, int numberOfPlayers) {
         Game game = new SimpleGame();
         game.createDeck(deckType);
         game.setNumberOfHands(numberOfPlayers);

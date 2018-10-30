@@ -22,10 +22,7 @@ public class SimpleGame implements Game {
     /**
      * Constructor.
      */
-    public SimpleGame() {
-        this.players = new ArrayList<>();
-        this.deck = null;
-    }
+    public SimpleGame() { }
 
     @Override
     public void createDeck(String str) throws IllegalArgumentException {
@@ -63,6 +60,7 @@ public class SimpleGame implements Game {
         if (n < 2 || n > 24) {
             throw new IllegalArgumentException("Invalid number of hands");
         }
+        this.players = new ArrayList<>();
         for (int i = 0; i < n; i++) {
             players.add(new StandardHand());
         }
