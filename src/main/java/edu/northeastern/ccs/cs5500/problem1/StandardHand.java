@@ -59,8 +59,13 @@ public class StandardHand implements Hand {
     }
 
     @Override
-    public void removeCard(Card card) {
-        cards.remove(card);
+    public void removeCard(Rank rank) {
+        for (Card card: this.cards){
+            if (card.getRank().equals(rank)){
+                this.cards.remove(card);
+                return;
+            }
+        }
     }
 
     @Override

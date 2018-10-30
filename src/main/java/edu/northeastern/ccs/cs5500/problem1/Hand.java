@@ -56,5 +56,5 @@ public interface Hand {
      */
     void shuffle();
 
-    void removeCard(Card card);
+    void removeCard(Rank rank);
 }
