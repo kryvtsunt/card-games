@@ -12,7 +12,7 @@ public abstract class AbstractFactory {
      * @param type type of the Deck to generate.
      * @return generated Deck.
      */
-    abstract Deck getDeck(DeckType type);
+    public abstract Deck getDeck(DeckType type);
 
     /**
      * Generates a Deck by input Deck Type (look up DeckType Enum) and number of decks to combine together.
@@ -21,7 +21,7 @@ public abstract class AbstractFactory {
      * @param numberOfDecks number of decks to combined together.
      * @return generated Deck.
      */
-    abstract Deck getDeck(DeckType type, int numberOfDecks);
+    public abstract Deck getDeck(DeckType type, int numberOfDecks);
 
     /**
      * Generates a Game by inputs.
@@ -31,7 +31,7 @@ public abstract class AbstractFactory {
      * @param numberOfPlayers number of players in the game.
      * @return generated Game.
      */
-    abstract Game getGame(String deckType, int numberOfDecks, int numberOfPlayers);
+    public abstract Game getGame(String deckType, int numberOfDecks, int numberOfPlayers);
 
     /**
      * /**
@@ -41,6 +41,6 @@ public abstract class AbstractFactory {
      * @param numberOfPlayers number of players in the game.
      * @return generated Game.
      */
-    abstract Game getGame(String deckType, int numberOfPlayers);
+    public abstract Game getGame(String deckType, int numberOfPlayers);
 
 }
