@@ -26,7 +26,7 @@ public class StandardHand implements Hand {
 
     @Override
     public List<Card> showCards() {
-        return this.cards;
+        return new ArrayList<>(this.cards);
     }
 
     @Override
@@ -56,6 +56,11 @@ public class StandardHand implements Hand {
     @Override
     public void shuffle() {
         Collections.shuffle(this.cards);
+    }
+
+    @Override
+    public void removeCard(Card card) {
+        cards.remove(card);
     }
 
     @Override

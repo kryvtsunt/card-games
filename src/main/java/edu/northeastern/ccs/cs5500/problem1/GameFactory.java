@@ -8,12 +8,12 @@ package edu.northeastern.ccs.cs5500.problem1;
 public class GameFactory extends AbstractFactory {
 
     @Override
-    Deck getDeck(DeckType type) {
+    public Deck getDeck(DeckType type) {
         return null;
     }
 
     @Override
-    Deck getDeck(DeckType type, int numberOfDecks) {
+    public Deck getDeck(DeckType type, int numberOfDecks) {
         return null;
     }
 

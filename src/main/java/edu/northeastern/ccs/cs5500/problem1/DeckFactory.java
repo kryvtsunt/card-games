@@ -33,12 +33,12 @@ public class DeckFactory extends AbstractFactory {
     }
 
     @Override
-    Game getGame(String deckType, int numberOfDecks, int numberOfPlayers) {
+    public Game getGame(String deckType, int numberOfDecks, int numberOfPlayers) {
         return null;
     }
 
     @Override
-    Game getGame(String deckType, int numberOfPlayers) {
+    public Game getGame(String deckType, int numberOfPlayers) {
         return null;
     }
 

@@ -55,4 +55,6 @@ public interface Hand {
      * Shuffles Cards in player's Hand.
      */
     void shuffle();
+
+    void removeCard(Card card);
 }
